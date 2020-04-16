@@ -1,1 +1,36 @@
-{"name":"rbweb","version":"0.0.0","private":true,"scripts":{"start":"node ./bin/www","dev":"nodemon","build":"webpack","watch":"webpack --watch"},"dependencies":{"cookie-parser":"~1.4.4","debug":"~2.6.9","express":"~4.16.1","http-errors":"~1.6.3","morgan":"~1.9.1","pug":"2.0.0-beta11"},"devDependencies":{"ts-loader":"^6.2.2","@babel/core":"^7.2.2","@babel/preset-env":"^7.3.1","babel-loader":"^8.0.5","css-loader":"^3.2.0","mini-css-extract-plugin":"^0.8.0","node-sass":"^4.13.0","sass-loader":"^8.0.0","style-loader":"^1.0.0","webpack":"^4.29.0","webpack-cli":"^3.2.1","webpack-dev-server":"^3.1.14"}}
+{
+  "name": "rbweb",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start1": "npx nodemon app.js",
+    "start": "node ./bin/www",
+    "dev": "nodemon",
+    "dev1": "npx nodemon app.js",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.3",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.4",
+    "ts-loader": "^6.2.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
